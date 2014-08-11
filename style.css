@@ -20,35 +20,17 @@ body {
 		z-index: 99;
 	}
 
-/*	#c3 {
-		background: url("Images/panda-bg.jpg") no-repeat center center fixed;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-		z-index: 99;
-	}*/
-
 	#c4 {
 		background-color: rgba(127, 140, 141, 0.7);
 	}
 
-/*	#c5 {
-		background: url("Images/inception-bg2.jpg") no-repeat center center fixed;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-		z-index: 99;
-	}*/
-
 	#c6 {
-		background-color: rgba(44, 62, 80, 0.4);
-/*		background: url("Images/dream-3.jpg") no-repeat center center fixed;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;*/
+		background-color: rgba(44, 62, 80, 0.6);
+	}
+
+	#c7 {
+		min-height: 50px;
+		background-color: rgba(1, 1, 1, 1.0);
 	}
 
 #overlay {
@@ -188,4 +170,15 @@ body {
 	border-radius-bottomright: 5px;
 	-khtml-border-radius-topright: 5px;
 	-khtml-border-radius-bottomright: 5px;
+}
+
+#footercontainer {
+	text-align: center;
+	padding-top: 17px;
+}
+
+#footer {
+	margin-left: auto;
+	margin-right: auto;
+	color: rgba(255, 255, 255, 0.4);
 }
