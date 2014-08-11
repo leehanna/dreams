@@ -13,10 +13,6 @@ body {
 	min-height: 805px;
 	height: auto;
 	overflow: auto;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
 }
 
 	#c2 {
@@ -25,6 +21,10 @@ body {
 
 	#c3 {
 		background: url("Images/panda-bg.jpg") no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
 	}
 
 	#c4 {
@@ -33,10 +33,18 @@ body {
 
 	#c5 {
 		background: url("Images/inception-bg2.jpg") no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
 	}
 
 	#c6 {
 		background: url("Images/dream-3.jpg") no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
 	}
 
 #overlay {
