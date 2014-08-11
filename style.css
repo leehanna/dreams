@@ -20,34 +20,35 @@ body {
 		z-index: 99;
 	}
 
-	#c3 {
+/*	#c3 {
 		background: url("Images/panda-bg.jpg") no-repeat center center fixed;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
 		z-index: 99;
-	}
+	}*/
 
 	#c4 {
 		background-color: rgba(127, 140, 141, 0.7);
 	}
 
-	#c5 {
+/*	#c5 {
 		background: url("Images/inception-bg2.jpg") no-repeat center center fixed;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
 		z-index: 99;
-	}
+	}*/
 
 	#c6 {
-		background: url("Images/dream-3.jpg") no-repeat center center fixed;
+		background-color: rgba(44, 62, 80, 0.4);
+/*		background: url("Images/dream-3.jpg") no-repeat center center fixed;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
-		background-size: cover;
+		background-size: cover;*/
 	}
 
 #overlay {
@@ -61,7 +62,11 @@ body {
 
 #player {
 	z-index: -99;
+	min-height: 810px;
+	width: 100%;
+	height:100%;
 	position: fixed;
+	overflow: hidden;
 }
 
 #titlebox {
@@ -87,7 +92,7 @@ body {
 }
 
 #image1 {
-	padding-top: 200px;
+	padding-top: 130px;
 	clear: both;
 	padding-left: 8%;
 }
