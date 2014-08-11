@@ -16,7 +16,8 @@ body {
 }
 
 	#c2 {
-		background-color: #fff;
+		background-color: rgba(255, 255, 255, 0.5);
+		z-index: 99;
 	}
 
 	#c3 {
@@ -25,10 +26,11 @@ body {
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
+		z-index: 99;
 	}
 
 	#c4 {
-		background-color: rgba(127, 140, 141, 1.0);
+		background-color: rgba(127, 140, 141, 0.7);
 	}
 
 	#c5 {
@@ -37,6 +39,7 @@ body {
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
+		z-index: 99;
 	}
 
 	#c6 {
@@ -48,17 +51,17 @@ body {
 	}
 
 #overlay {
-	position: fixed;
+	position: absolute;
 	width:100%;
 	height:805px;
 	background:#000;
-	opacity: 0.3;
+	opacity: 0.2;
 	z-index: -98;
 }
 
 #player {
 	z-index: -99;
-	position:absolute;
+	position: fixed;
 }
 
 #titlebox {
@@ -94,10 +97,9 @@ body {
 	}
 
 #image2 {
-	padding-top: 50px;
+	padding-top: 200px;
 	padding-left: 8%;
 	padding-bottom: 140px;
-	clear:both;
 }
 
 #image3 {
@@ -123,11 +125,6 @@ body {
 		font-weight: 600;
 		font-size: 37px;
 		letter-spacing: 4px;
-	}
-
-	#sub1 {
-		padding-top: 80px;
-		padding-left: 8%;
 	}
 
 	#sub2 {
@@ -177,7 +174,7 @@ body {
 	margin-top: 140px;
 	padding: 20px 40px 50px 20px;
 	padding-left: 8%;
-	background-color: rgba(1, 1, 1, 0.6);
+	background-color: rgba(255, 255, 255, 0.3);
 	-moz-border-radius-topright: 5px;
 	-moz-border-radius-bottomright: 5px;
 	-webkit-border-top-right-radius: 5px;
