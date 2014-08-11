@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Dreams</title>
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="jquery.lettering-0.6.1.min.js"></script>
+	<script src="textillate/jquery.textillate.js"></script>
+	<script src="main.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="animate.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+	<div id="maincontainer">
+		<div class="bgcontainer" id="c1">
+		    <div id="player"></div>
+			<script>
+			      var tag = document.createElement('script');
+			      tag.src = "http://www.youtube.com/player_api";
+			      var firstScriptTag = document.getElementsByTagName('script')[0];
+			      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+			      var player;
+			      function onYouTubePlayerAPIReady() {
+			        player = new YT.Player('player', {
+			          playerVars: {'autoplay':1, 'controls':0, 'autohide':1, 'wmode':'opaque', 'showinfo':0, 'rel':0, 'loop':1, 'playlist':'4PZsh3TB-Ug'},
+			          videoId: '4PZsh3TB-Ug',
+			          events: {
+			            'onReady': onPlayerReady},
+			          width: '100%',
+			          height: '100%',
+			          wmode: 'opaque'
+			        });
+			      }
+
+			      function onPlayerReady(event) {
+			        event.target.mute();
+			      }
+			</script>
+			<div id="overlay"></div>
+			<div id="titlebox">
+				<h1 id="maintitle">WHY DO WE DREAM?</h1>
+			</div>
+		</div>
+
+		<div class="bgcontainer" id="c2">
+			<div class="objcontainer" id="image1">
+				<img src="Images/closed_eyes.jpg">
+			</div>
+			<div class="objcontainer" id="sub">
+				<h1 class="subhead">What are dreams, anyway?</h1>
+				<div class="textcontainer">
+					<a class="bodytext">No one is sure what they are exactly. For now, an elusive definition such as, "a report of awakening of mental activity during sleep" is the best we can do. In fact, a consensus on why we sleep has not even been reached yet. Sleep is seemingly a disadvantageous behavior evolutionary-wise because responsiveness, sensory awareness, and logical abilities become greatly reduced. Why can't we just close our eyes and rest if physical tiredness is what we are trying to resolve? And what role do dreams play in all of this? </a>
+				</div>
+			</div>
+		</div>
+
+		<div class="bgcontainer" id="c3">
+			<div class="objcontainer" id="sub1">
+				<h1 class="subhead" id="sub2">When do we dream?</h1>
+				<div class="textcontainer" id="tc2">
+					<a class="bodytext" id="body2">Generally we say that "true" dreaming occurs during the REM (Rapid Eye Movement) sleep stage, but we also dream when we are falling asleep and awakening. The colored blocks in this hypnogram shows when REM generally occurs for a healthy adult during the course of a night. REM sleep is also called "paradoxical" sleep because it is similar to when we are awake: we experience emotions and make decisions, but the main differences are that most of our sensory stimuli are imagined and our body is paralyzed to prevent us from acting out our dreams.</a>
+				</div>
+			</div>
+			<div class="objcontainer" id="image2">
+				<img src="Images/Hypnogram.jpg"/>
+			</div>
+		</div>
+
+		<div class="bgcontainer" id="c4">
+			<div class="objcontainer" id="image1">
+				<img src="Images/freud.jpg" class="stackimage" id="freud">
+				<img src="Images/Memory.png" class="stackimage">
+			</div>
+			<div class="objcontainer" id="sub">
+				<h1 class="subhead" id="sub2">Theories of Why We Dream</h1>
+				<div class="textcontainer">
+					<a class="bodytext" id="body2">One very compelling scientist, Sigmund Freud, proposed in the early 1900s that dreams discharge repressed wishes through dream content that is a disguised form of our true desires. Although this is very difficult to disprove, it is also difficult to prove.  Here are some of the other theories that are more provable biologically:</a>
+					<h2 class="subsub">Activation Synthesis Model</h2>
+					<ul class="bullet">
+						<li>Dreams are simply the brain interpreting random electrical impulses that are produced during REM</li>
+						<li>The brain cortex receives PGO Waves (bursts of electrical activity during REM) and it tries to make sense of it</li>
+					</ul class="bullet">
+					<h2 class="subsub">Dreaming to Erase Memory</h2>
+					<ul class="bullet">
+						<li>Since we intake a lot of information in a day, the brain needs to free storage space up</li>
+						<li>Dreaming is a meaningless byproduct of this process</li>
+					</ul>
+					<h2 class="subsub">REM Dreaming for Emotional Therapy</h2>
+					<ul class="bullet">
+						<li>Each memory is associated with an emotion</li>
+						<li>Experiment: showed very emotionally arousing pictures to participants. Half of them slept and half of them stayed awake, and then used fMRI to scan brain activity.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="bgcontainer" id="c5">
+			<div class="objcontainer" id="lucid">
+				<h1 class="subhead" id="sub2">Lucidity</h1>
+				<div class="textcontainer" id="tc2">
+					<a class="bodytext" id="body2">Have you watched Inception? The movie was based on lucid dreams, which are dreams in which you become aware that you are dreaming and you gain control over your dream content. fMRI brain scans of lucid dreamers show that the prefrontal cortex, which consists of the logical areas of your brain, does not become fully deactivated like that of regular sleepers.</a>
+				</div>
+			</div>
+			<div class="objcontainer" id="image3">
+				<img src="Images/luciddream.jpg">
+			</div>
+		</div>
+
+		<div class="bgcontainer" id="c6">
+			<div class="objcontainer" id="sub">
+				<h1 class="subhead" id="sub2">Tips to Improve Dreaming</h1>
+				<div class="textcontainer">
+					<ul class="bullet">
+						<li>This may sound obvious, but sleep more! You will spend more time in REM sleep.</li>
+						<li>When you wake up, before you forget, write down what you remember from your dreams in a dream journal. You will find yourself remembering more and more of your dreams.</li>
+						<li>Don't drink alcohol before you sleep! Studies have shown that the brain is deprived of REM sleep until it finishes metabolizing the alcohol in your system. Bad news for drinkers out there, but REM deficiency will also affect your overall memory.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</body>
+
+</html>

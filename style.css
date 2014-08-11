@@ -1,0 +1,177 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	top: 0px;
+	background-color: #fff;
+	height: 100%;
+	font-family: 'OpenSans', sans-serif;
+}
+
+.bgcontainer {
+	position: relative;
+	width: 100%;
+	min-height: 805px;
+	height: auto;
+	overflow: auto;
+}
+
+	#c2 {
+		background-color: #fff;
+	}
+
+	#c3 {
+		background-image: url("Images/panda-bg.jpg");
+	}
+
+	#c4 {
+		background-color: rgba(127, 140, 141, 1.0);
+	}
+
+	#c5 {
+		background-image: url("Images/inception-bg2.jpg");
+	}
+
+	#c6 {
+		background-image: url("Images/dream-3.jpg");
+	}
+
+#overlay {
+	position: fixed;
+	width:100%;
+	height:805px;
+	background:#000;
+	opacity: 0.3;
+	z-index: -98;
+}
+
+#player {
+	z-index: -99;
+	position:absolute;
+}
+
+#titlebox {
+	padding-top: 350px;
+	padding-right: 8%;
+	z-index: 99;
+}
+
+	#maintitle {
+		font-weight: 600;
+		font-size: 60px;
+		letter-spacing: 15px;
+		text-align: right;
+		color: rgba(236, 240, 241, 0.5);
+		z-index: 100;
+	}
+
+.objcontainer {
+	float: left;
+	position: relative;
+	padding-left: 8%;
+	display: inline;
+}
+
+#image1 {
+	padding-top: 200px;
+	clear: both;
+	padding-left: 8%;
+}
+
+	#freud {
+		padding-bottom: 150px;
+	}
+
+#image2 {
+	padding-top: 50px;
+	padding-left: 8%;
+	padding-bottom: 140px;
+	clear:both;
+}
+
+#image3 {
+	padding-top: 240px;
+	padding-left: 4%;
+	padding-bottom: 140px;
+}
+
+.stackimage {
+	float: left;
+	clear: both;
+	padding-bottom: 30px;
+}
+
+#sub {
+	padding-top: 140px;
+	padding-left: 8%;
+}
+
+	.subhead {
+		color: rgba(1, 1, 1, 0.7);
+		z-index: 1;
+		font-weight: 600;
+		font-size: 37px;
+		letter-spacing: 4px;
+	}
+
+	#sub1 {
+		padding-top: 80px;
+		padding-left: 8%;
+	}
+
+	#sub2 {
+		color: rgba(255, 255, 255, 0.8);
+	}
+
+.textcontainer {
+	padding-top: 20px;
+	height: auto;
+	width: 560px;
+	padding-left: 0;
+	padding-bottom: 140px;
+}
+
+	.textcontainer h2 {
+		padding-top: 9px;
+		color: rgba(255, 255, 255, 0.8);
+		z-index: 1;
+		font-weight: 400px;
+		letter-spacing: 2.5px;
+		text-transform: uppercase;
+	}
+
+	.textcontainer ul {
+		color: rgba(255, 255, 255, 1.0);
+		z-index: 1;
+		font-weight: 200;
+		font-size: 20px;
+	}
+
+	#tc2 {
+		padding-bottom: 0px;
+	}
+
+.bodytext {
+	color: rgba(1, 1, 1, 1.0);
+	z-index: 1;
+	font-weight: 200;
+	font-size: 23px;
+}
+
+	#body2 {
+		color: #fff;
+	}
+
+#lucid {
+	margin-top: 140px;
+	padding: 20px 40px 50px 20px;
+	padding-left: 8%;
+	background-color: rgba(1, 1, 1, 0.6);
+	-moz-border-radius-topright: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	border-radius-topright: 5px;
+	border-radius-bottomright: 5px;
+	-khtml-border-radius-topright: 5px;
+	-khtml-border-radius-bottomright: 5px;
+}
