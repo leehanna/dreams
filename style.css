@@ -2,7 +2,7 @@ body {
 	margin: 0px;
 	padding: 0px;
 	top: 0px;
-	background-color: #fff;
+	background-color: #000;
 	height: 100%;
 	font-family: 'OpenSans', sans-serif;
 }
@@ -44,9 +44,6 @@ body {
 
 #player {
 	z-index: -99;
-	min-height: 810px;
-	width: 100%;
-	height:100%;
 	position: fixed;
 	overflow: hidden;
 }
